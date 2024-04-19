@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/lexend-deca');
+@import url('https://fonts.cdnfonts.com/css/inter');
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+p{
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+}
+.img img{
+  height: 24rem;
+  opacity: 50%;
+  position: relative;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.wrapper{
+  display: flex;
+}
+.container{
+  background-color: hsl(244, 38%, 16%);
+  height: 24rem;
+  width: 30rem;
+}
+.container{
+}
+.container h1{
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-size: 1.9rem;
+}
+.container p{
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.679);
+}
+.head{
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+.color{
+  background-color: hsl(233, 46%, 27%);
+  height: 24rem;
+  bottom: 23.2%;
+  filter: opacity(50%);
+  width: 29.1rem;
+  position: absolute;
+  right: 18.9%;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.stats{
+  display: flex;
+  margin-top: 4rem;
+}
+.stats p{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
